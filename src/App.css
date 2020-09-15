@@ -3,5 +3,96 @@
   max-width: 1000px;
   height: 580px;
   background-color: #3e166a;
+  margin: 120px auto;
+}
 
+
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.social-wrapper {
+  padding-left: 80px;
+}
+
+
+.social-wrapper .fb{
+  border: 1px solid #733068;
+  border-radius: 100%;
+  padding: 6px;
+}
+
+.social-wrapper .tw{
+  border: 1px solid #733068;
+  border-radius: 100%;
+  padding: 6px;
+  
+}
+
+.social-wrapper {
+  display: flex;
+  position: absolute;
+  top: 200px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+form input:first-child {
+  margin-top: 200px;
+}
+
+form input{
+  width: 100%;
+  max-width: 350px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #3e166a;
+  border: 1px solid #733068;
+  font-size: 18px;
+  padding-left: 14px ;
+  display: block;
+  color: white !important;
+  margin-bottom: 15px;
+}
+
+form a {
+  text-decoration: none;
+  color: #81376d;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.button-login {
+  width: 100%;
+  max-width: 350px;
+  height: 40px;
+  color: white;
+  background-color: #14b266;
+  border: none;
+  margin-top: 35px;
+  border-radius: 4px;
+}
+
+.line {
+  width: 100%;
+  max-width: 350px;
+  height: 2px;
+  background-color: #733068;
+  margin-top: 25px;
+}
+
+.create-account {
+  width: 350px;
+  height: 40px;
+  color: white;
+  background-color: #ffce00;
+  border: none;
+  margin-top: 35px;
+  border-radius: 4px;
 }
